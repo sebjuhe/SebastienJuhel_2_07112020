@@ -265,6 +265,7 @@ main{
     }
     .gallery_contenair{
         max-width: 100%;
+        background-color: white;
     }
 }
 .etiquette{
@@ -339,10 +340,10 @@ main{
 @media screen and (max-width: 1000px) {
     .bis_populaires{
     display: block;
-    width: 100%;
+    width: 90%;
+    margin: auto auto 2rem auto;
     background-color: #F2F2F2;
     border-radius: 25px 25px 25px 25px;
-    padding: 1rem;
     }
 }
 .populaires{
@@ -380,7 +381,7 @@ main{
     background-color: white;
     display: flex;
     justify-content: initial;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 25px 25px 25px 25px;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 2rem;
@@ -391,11 +392,11 @@ main{
     object-fit: cover;
     width: 140px;
     height: 140px;
-    border-radius: 10% 0 0 10%;
+    border-radius: 25px 0 0 25px;
 }
 .description_pop{
     border: solid white 5px;
-    border-radius: 0 10% 10% 0;
+    border-radius: 0 25px 25px 0;
     width: 500px;
     margin-left: 0.4rem;
 }
